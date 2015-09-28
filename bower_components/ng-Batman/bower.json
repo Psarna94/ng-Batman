@@ -6,7 +6,6 @@
     "Pranu Sarna <pranusarna@gmail.com>"
   ],
   "description": "An angular directive which lets you add batman logo to your markup",
-  "main":"ngBatman.js",
   "keywords": [
     "angular",
     "directives",
@@ -23,6 +22,7 @@
     "tests"
   ],
   "dependencies":{
-    "angular":"latest"
+    "angular":"latest",
+    "angular-route":"latest"
   }
 }

@@ -1,9 +1,11 @@
 'use strict';
 
-angular.module('ngBatman', ['ng-Batman']);
+angular.module('ng-Batman', []);
 
-module.directive('batman', function(){
-  return function(scope, element, attrs){
-    
-  }
-})
+angular.module('ngBatman')
+  .directive('ngBatman', function(){
+    return {
+      restrict:"EAC",
+      template: "<h1> This is heading </h1>"
+    }
+  })

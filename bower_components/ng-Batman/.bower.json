@@ -1,12 +1,10 @@
 {
   "name": "ng-Batman",
-  "version": "0.0.0",
   "homepage": "https://github.com/Psarna94/ng-Batman",
   "authors": [
     "Pranu Sarna <pranusarna@gmail.com>"
   ],
   "description": "An angular directive which lets you add batman logo to your markup",
-  "main":"ngBatman.js",
   "keywords": [
     "angular",
     "directives",
@@ -22,7 +20,18 @@
     "test",
     "tests"
   ],
-  "dependencies":{
-    "angular":"latest"
-  }
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest"
+  },
+  "_release": "0999e2319d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0999e2319d788d54e823e9ae5223b3f717b1f1aa"
+  },
+  "_source": "git://github.com/Psarna94/ng-Batman.git",
+  "_target": "*",
+  "_originalSource": "ng-Batman",
+  "_direct": true
 }

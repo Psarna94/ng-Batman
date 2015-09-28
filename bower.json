@@ -1,0 +1,24 @@
+{
+  "name": "ng-Batman",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Psarna94/ng-Batman",
+  "authors": [
+    "Pranu Sarna <pranusarna@gmail.com>"
+  ],
+  "description": "An angular directive which lets you add batman logo to your markup",
+  "keywords": [
+    "angular",
+    "directives",
+    "batman",
+    "superhero",
+    "gotham"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
